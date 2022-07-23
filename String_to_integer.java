@@ -1,4 +1,3 @@
-import java.util.*;
 
 public class String_to_integer {
 
