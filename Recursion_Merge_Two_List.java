@@ -1,4 +1,4 @@
-public class Temp {
+public class Recursion_Merge_Two_List {
 
   public static class ListNode {
 
@@ -12,7 +12,6 @@ public class Temp {
   }
 
   public static void printList(ListNode root) {
-    System.out.println("Addition of two linked list is : ");
     while (root != null) {
       System.out.print(root.val + " ");
       root = root.next;
