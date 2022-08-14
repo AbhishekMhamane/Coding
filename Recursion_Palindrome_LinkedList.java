@@ -29,6 +29,7 @@ public class Recursion_Palindrome_LinkedList {
   }
 
   public static boolean isPalindromeCheck(Queue<Integer> queue, ListNode head) {
+   
     if (head == null) return true;
 
     queue.add(head.val);
