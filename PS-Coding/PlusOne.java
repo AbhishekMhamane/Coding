@@ -49,8 +49,14 @@ public class PlusOne {
   }
 
   public static void main(String[] args) {
-    int arr[] = { 9, 9, 9, 9 };
+    int arr[] = { 4, 3, 2, 9 };
+
+    long startTime = System.currentTimeMillis();
     int result[] = plusOne(arr);
+    long endTime = System.currentTimeMillis();
+
     Arrays.stream(result).forEach(i -> System.out.print(i + " "));
+
+    System.out.println("\nTime taken : " + (endTime - startTime));
   }
 }
