@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class Recursion_Power_of_Three {
 
   public static boolean isPowerOfThree(int n) {

@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class RecursionFibonacci {
 
     public static void callFibo(int n,int prev,int temp,int i)
