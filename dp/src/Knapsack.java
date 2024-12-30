@@ -49,9 +49,9 @@ public class Knapsack {
     int include = 0;
     // include
     if(wt[index] <= W)
-      include = solveKnapsackFromN(index - 1, W - wt[index], wt, val) + val[index];
+      include = solveKnapsackFromNMemo(index - 1, W - wt[index], wt, val,dp) + val[index];
     // exlude
-    int exclude = solveKnapsackFromN(index - 1, W, wt, val);
+    int exclude = solveKnapsackFromNMemo(index - 1, W, wt, val,dp);
 
     dp[index][W] = Math.max(include, exclude);
 
